@@ -1,0 +1,379 @@
+.logistics-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #fff;
+  min-height: 400px;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  top: 15%;
+  left: 15%;
+}
+
+.welcome-image {
+  position: absolute;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-image.top {
+  top: 0;
+  left: 15%;
+  width: 55%;
+  height: auto;
+}
+
+.welcome-image.bottom {
+  top: 40%;
+  left: 10%;
+  width: 50%;
+  height: auto;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  padding-left: 50px;
+  margin-right: 14%;
+}
+
+.text-content h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-content h2 span {
+
+  font-size: 30px;
+  color: #FE7743;
+  font-weight: normal;
+}
+
+.text-content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.more-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.more-btn:hover {
+  background-color: #ffbb00;
+}
+
+.clients-badge {
+  background-color: #FE7743;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  width: 200px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%); 
+  position: relative;
+  right:40%; 
+}
+
+.clients-badge span {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.clients-badge p {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}
+
+/* 
+@media (max-width: 768px) {
+  .logistics-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    text-align: center;  
+    height: auto; 
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+.image-container {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+
+}
+
+.welcome-image.top,
+.welcome-image.bottom {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  position: static; 
+  align-items: center; 
+  justify-content: center; 
+
+}
+  .content-container {
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+
+  }
+
+  .text-content h2 {
+    font-size: 24px;
+  }
+ .text-content h2 span {
+    font-size: 24px;
+ }
+  .text-content p {
+    font-size: 16px;
+
+  }
+
+  .clients-badge {
+    width: 150px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clients-badge span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 393px) {
+  .logistics-section {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;     
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    position: relative;
+    justify-content: center;
+  }
+  .welcome-image {
+    position: static; 
+    width: 100%; 
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+  .welcome-image.top {
+    width: 80%;
+    left: 10%;
+    top: 0;
+  }
+
+  .welcome-image.bottom {
+    width: 80%;
+    left: 10%;
+  }
+
+  .content-container {
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .text-content h2 {
+    font-size: 18px;
+  }
+ .text-content h2 span {
+    font-size: 18px;
+ }
+  .text-content p {
+    font-size: 16px;
+  }
+
+  .more-btn {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  .clients-badge {
+    width: 120px;
+    right: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+
+  .clients-badge span {
+    font-size: 20px;
+  }
+} */
+ @media (max-width: 768px) {
+  .logistics-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    height: auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .image-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 20px; 
+  }
+
+.welcome-image {
+    position: relative;
+    width: 80%;
+    margin: 0 auto; 
+    display: block;
+    left: auto; 
+    right: auto;
+    top: auto;
+  }
+
+  .welcome-image.top {
+    margin-bottom: -40px; 
+    z-index: 2; 
+  }
+
+  .welcome-image.bottom {
+    margin-top: 0;
+    z-index: 1; 
+  }
+  .content-container {
+    width: 100%;
+    max-width: 600px; 
+    padding: 0;
+    margin: 0 auto; 
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  .text-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .text-content h2 span {
+    font-size: 28px; 
+  }
+
+  .text-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto 20px; 
+    max-width: 90%; 
+  }
+
+  .more-btn {
+    margin: 0 auto; 
+  }
+
+  .clients-badge {
+    width: 180px; 
+    margin: 30px auto 0; 
+    right: auto;
+    left: auto;
+    padding: 15px 20px;
+  }
+
+  .clients-badge span {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 393px) {
+  .logistics-section {
+    padding: 30px 15px;
+  }
+
+  .welcome-image.top,
+  .welcome-image.bottom {
+    width: 90%;
+  }
+
+  .welcome-image.bottom {
+    margin-left: 5%; 
+    margin-top: -30px;
+  }
+
+  .text-content h2 {
+    font-size: 24px;
+  }
+
+  .text-content h2 span {
+    font-size: 24px;
+  }
+
+  .text-content p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .clients-badge {
+    width: 160px;
+    padding: 12px 15px;
+  }
+
+  .clients-badge span {
+    font-size: 20px;
+  }
+}
