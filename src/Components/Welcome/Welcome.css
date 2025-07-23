@@ -103,212 +103,61 @@
   color: white;
 }
 
-/* 
+
 @media (max-width: 768px) {
   .logistics-section {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    width: 100%;
-    text-align: center;  
+    padding: 40px 20px; 
     height: auto; 
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-.image-container {
-  width: 100%;
-  margin-bottom: 20px;
-  position: relative;
-  display: flex; 
-  flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
-
-}
-
-.welcome-image.top,
-.welcome-image.bottom {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  position: static; 
-  align-items: center; 
-  justify-content: center; 
-
-}
-  .content-container {
-    width: 100%;
-    padding-left: 0;
-    align-items: center;
-    text-align: center;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-
-  }
-
-  .text-content h2 {
-    font-size: 24px;
-  }
- .text-content h2 span {
-    font-size: 24px;
- }
-  .text-content p {
-    font-size: 16px;
-
-  }
-
-  .clients-badge {
-    width: 150px;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .clients-badge span {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 393px) {
-  .logistics-section {
-    padding: 5px;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;     
-    min-height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    min-height: 100vh; 
+    text-align: center; 
   }
 
   .image-container {
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin-bottom: 20px;
-    position: relative;
-    justify-content: center;
-  }
-  .welcome-image {
-    position: static; 
     width: 100%; 
-    height: auto;
-    margin-bottom: 10px; 
-}
-
-  .welcome-image.top {
-    width: 80%;
-    left: 10%;
-    top: 0;
+    height: auto; 
+    position: static; 
+    margin: 0 auto 30px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
   }
 
-  .welcome-image.bottom {
-    width: 80%;
-    left: 10%;
-  }
-
-  .content-container {
-    width: 100%;
-    padding-left: 0;
-    align-items: center;
-    text-align: center;
-    margin: 0 10px;
-  }
-
-  .text-content h2 {
-    font-size: 18px;
-  }
- .text-content h2 span {
-    font-size: 18px;
- }
-  .text-content p {
-    font-size: 16px;
-  }
-
-  .more-btn {
-    padding: 8px 15px;
-    font-size: 16px;
-  }
-
-  .clients-badge {
-    width: 120px;
-    right: 0; 
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 16px;
-  }
-
-  .clients-badge span {
-    font-size: 20px;
-  }
-} */
- @media (max-width: 768px) {
-  .logistics-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 40px 20px;
-    text-align: center;
-    height: auto;
-    min-height: 100vh;
-    box-sizing: border-box;
-  }
-
-  .image-container {
-    width: 100%;
-    max-width: 600px; 
-    margin: 0 auto 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 0 20px; 
-  }
-
-.welcome-image {
-    position: relative;
-    width: 80%;
-    margin: 0 auto; 
-    display: block;
+  .welcome-image {
+    position: relative; 
+    width: 100%; 
     left: auto; 
-    right: auto;
-    top: auto;
+    top: auto; 
+    margin: 0 auto; 
   }
 
   .welcome-image.top {
-    margin-bottom: -40px; 
-    z-index: 2; 
+    top: auto;
+    left: auto;
+    width: 85%; 
+    margin-bottom: -30px; 
   }
 
   .welcome-image.bottom {
-    margin-top: 0;
-    z-index: 1; 
-  }
-  .content-container {
-    width: 100%;
-    max-width: 600px; 
-    padding: 0;
-    margin: 0 auto; 
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    top: auto;
+    left: auto;
+    width: 85%; 
+    margin-top: 10%; 
   }
 
-  .text-content {
-    width: 100%;
+  .content-container {
+    width: 100%; 
+    padding-left: 0; 
+    margin-right: 0; 
+    align-items: center; 
+    text-align: center; 
   }
 
   .text-content h2 {
-    font-size: 28px;
+    font-size: 28px; 
     margin-bottom: 15px;
   }
 
@@ -317,8 +166,7 @@
   }
 
   .text-content p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 16px; 
     margin: 0 auto 20px; 
     max-width: 90%; 
   }
@@ -329,51 +177,57 @@
 
   .clients-badge {
     width: 180px; 
-    margin: 30px auto 0; 
-    right: auto;
-    left: auto;
-    padding: 15px 20px;
+    padding: 15px 20px; 
+    margin: 30px auto 0;
+    right: auto; 
+    left: auto; 
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%); 
   }
 
   .clients-badge span {
-    font-size: 22px;
+    font-size: 22px; 
   }
 }
 
 @media (max-width: 393px) {
   .logistics-section {
-    padding: 30px 15px;
+    padding: 30px 15px; 
   }
 
-  .welcome-image.top,
-  .welcome-image.bottom {
-    width: 90%;
+  .image-container {
+    margin-bottom: 20px; 
+  }
+
+  .welcome-image.top {
+    width: 85%; 
+    margin-bottom: 15px;
   }
 
   .welcome-image.bottom {
-    margin-left: 5%; 
-    margin-top: -30px;
+    width: 85%; 
+    margin-top: 0; 
   }
 
   .text-content h2 {
-    font-size: 24px;
+    font-size: 24px; 
   }
 
   .text-content h2 span {
-    font-size: 24px;
+    font-size: 24px; 
   }
 
   .text-content p {
-    font-size: 15px;
-    max-width: 100%;
+    font-size: 15px; 
+    max-width: 100%; 
   }
 
   .clients-badge {
-    width: 160px;
-    padding: 12px 15px;
+    width: 160px; 
+    padding: 12px 15px; 
+    margin-top: 20px; 
   }
 
   .clients-badge span {
-    font-size: 20px;
+    font-size: 20px; 
   }
 }
