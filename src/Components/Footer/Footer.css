@@ -1,0 +1,173 @@
+.site-footer {
+  background-color: #4b535e;
+  color: #e0e0e0;
+  padding-top: 60px;
+}
+
+.footer-top .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.widget {
+  padding: 0 15px;
+}
+
+.widget h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #616a75;
+  padding-bottom: 8px;
+}
+
+.about-widget p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-widget ul li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.about-widget ul li i {
+  margin-right: 10px;
+  color: #818a94;
+}
+
+.latest-news-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.latest-news-widget ul li {
+  margin-bottom: 12px;
+}
+
+.latest-news-widget ul li i {
+  color: #818a94; 
+  margin-right: 8px;
+}
+
+.latest-news-widget ul li span {
+  display: block;
+  font-size: 0.85em;
+  color: #818a94;
+  margin-top: 5px;
+}
+
+.customer-service-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.customer-service-links ul li {
+  margin-bottom: 10px;
+}
+
+.customer-service-links ul li i {
+  color: #818a94; 
+  margin-right: 8px;
+}
+
+.customer-service-images .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.customer-service-images img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+}
+
+.footer-bottom {
+  background-color: #373e47;
+  padding: 20px 0;
+  color: #bdbdbd;
+}
+
+.footer-bottom .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 0.9em;
+}
+
+.social-icons a {
+  color: #bdbdbd;
+  margin-left: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.fa {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-phone:before { content: "\f095"; }
+.fa-map-marker:before { content: "\f041"; }
+.fa-caret-right:before { content: "\f0da"; }
+.fa-life-ring:before { content: "\f1cd"; }
+.fa-comments:before { content: "\f086"; }
+.fa-question-circle:before { content: "\f059"; }
+.fa-file-text:before { content: "\f15c"; }
+.fa-gavel:before { content: "\f0e3"; }
+.fa-envelope:before { content: "\f0e0"; }
+.fa-facebook:before { content: "\f09a"; }
+.fa-twitter:before { content: "\f099"; }
+.fa-youtube-play:before { content: "\f16a"; }
+.fa-behance:before { content: "\f1b4"; }
+
+
+@media (max-width: 768px) {
+  .footer-widgets {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .footer-bottom .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+}

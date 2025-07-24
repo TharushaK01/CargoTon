@@ -51,7 +51,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(-30px, -30px);
+  transform: translate(-35px, 0);
   z-index: 1;
 }
 
