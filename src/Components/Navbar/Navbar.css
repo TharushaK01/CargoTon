@@ -40,6 +40,16 @@ nav ul li.nav-item::before {
 nav ul li.nav-item:hover::before {
   opacity: 1;
 }
+.fa-caret-down {
+  position: static; 
+  left: 0; 
+  top: 50%; 
+  transform: translateY( -5%); 
+  font-size: 12px; 
+  color: #333; 
+  margin-left: 5px; 
+}
+
 .hamburger {
   display: none;
   flex-direction: column;

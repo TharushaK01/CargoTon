@@ -96,9 +96,8 @@
 
 .customer-service-images img {
   width: 100%;
-  height: auto;
+  height: 70px;
   display: block;
-  border-radius: 3px;
 }
 
 .footer-bottom {

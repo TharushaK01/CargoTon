@@ -17,11 +17,11 @@ const Navbar = () => {
         <span></span>
       </div>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-            <li className='nav-item'>Home</li>
-            <li className='nav-item'>Page</li>
+            <li  className='nav-item'>Home<i className="fa fa-caret-down"></i></li>
+            <li className='nav-item'>Page<i className="fa fa-caret-down"></i></li>
             <li className='nav-item'>Tracking</li>
-            <li className='nav-item'>Services</li>
-            <li className='nav-item'>Blog</li>
+            <li className='nav-item'>Services<i className="fa fa-caret-down"></i></li>
+            <li className='nav-item'>Blog<i className="fa fa-caret-down"></i></li>
             <li><button className='btn_2'>Get a quote</button></li>
             <li><button className='btn'>Sign In</button></li>
         </ul>
