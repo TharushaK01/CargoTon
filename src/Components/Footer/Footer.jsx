@@ -11,6 +11,18 @@ const Footer = () => {
  <footer className="site-footer">
       <div className="footer-top">
         <div className="container">
+            <section className="newsletter-section">
+              <div className="container newsletter-content">
+                <div className="newsletter-text">
+                  <h2>Weekly Newsletter</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available.</p>
+                </div>
+                <div className="newsletter-form">
+                  <input type="email" placeholder="Enter Your Mail" />
+                  <button className="subscribe-button">SUBSCRIBE</button>
+                </div>
+              </div>
+            </section>
           <div className="footer-widgets">
             <div className="widget about-widget">
               <h3>About Us</h3>
